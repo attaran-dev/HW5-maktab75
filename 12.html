@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./12.css">
+</head>
+<body>
+    <div class="main">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p id="thanks">Thank you for taking the time to help us improve the platform</p>
+    <div class="container">
+        <div class="form">
+            <form>
+                <div class="section">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <label for="age">Age (optional)</label>
+                <input type="text" name="age" id="age" placeholder="Age">
+                <label for="role">Which option best describes your current role?</label>
+                <select name="role" id="role" placeholder="Select current role">
+                    <option value="test">Select current role</option>
+                </select>
+            </div>
+                <div class="section">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <span><input type="radio" id="definitely" name="recom" value="Definitely">
+                <label for="definitely">Definitely</label></span>
+                <span><input type="radio" id="maybe" name="recom" value="Maybe">
+                <label for="maybe">Maybe</label></span>
+                <span><input type="radio" id="not-sure" name="recom" value="Not sure">
+                <label for="not-sure">Not sure</label></span>
+                
+            </div>
+            <div class="section">
+            <label for="feature">What is your favorite feature of freeCodeCamp?</label>
+                <select name="feature" id="feature" placeholder="Select an option">
+                    <option value="test">Select an option</option>
+                </select>
+            </div>
+                <div class="section">
+                    <p>What would you like to see improved? (Check all that apply)</p>
+                <span><input type="checkbox" id="checkbox1" name="checkbox1" value="Front-end Projects">
+                    <label for="checkbox1">Front-end Projects</label></span>
+                    <span><input type="checkbox" id="checkbox2" name="checkbox2" value="Back-end Projects">
+                    <label for="checkbox2">Back-end Projects</label></span>
+                    <span><input type="checkbox" id="checkbox3" name="checkbox3" value="Data Visualization">
+                    <label for="checkbox3">Data Visualization</label></span>
+                    <span> <input type="checkbox" id="checkbox4" name="checkbox4" value="Challenges">
+                    <label for="checkbox4">Challenges</label></span>
+                   <span><input type="checkbox" id="checkbox5" name="checkbox5" value="Open Source Community">
+                    <label for="checkbox5">Open Source Community</label></span>
+                    <span><input type="checkbox" id="checkbox6" name="checkbox6" value="Gitter help rooms">
+                    <label for="checkbox6">Gitter help rooms</label></span>
+                    <span><input type="checkbox" id="checkbox7" name="checkbox7" value="Videos">
+                    <label for="checkbox7">Videos</label></span>
+                    <span><input type="checkbox" id="checkbox8" name="checkbox8" value="City Meetups">
+                    <label for="checkbox8">City Meetups</label></span>
+                    <span><input type="checkbox" id="checkbox9" name="checkbox9" value="Wiki">
+                    <label for="checkbox9">Wiki</label></span>
+                    <span><input type="checkbox" id="checkbox10" name="checkbox10" value="Forum">
+                    <label for="checkbox10">Forum</label></span>
+                    <span><input type="checkbox" id="checkbox11" name="checkbox11" value="Additional Courses">
+                    <label for="checkbox11">Additional Courses</label></span>
+                    
+                </div>
+                <div class="section">
+                    <p>Any comments or suggestions?</p>
+                    <textarea placeholder="Enter your comments here"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
